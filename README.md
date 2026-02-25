@@ -25,20 +25,9 @@ Além disso, foram utilizados recursos como **Collections** e **Stream API** par
 
 ## ⚙️ Estrutura do projeto:
 
-br
-└── com
-    └── dio
-        └── desafio
-            └── poo
-                ├── Main.java
-                └── dominio
-                    ├── Administrador.java
-                    ├── Bootcamp.java
-                    ├── Conteudos.java
-                    ├── Cursos.java
-                    ├── Developers.java
-                    └── Mentorias.java
+<img width="433" height="329" alt="image" src="https://github.com/user-attachments/assets/16cd5345-8010-4003-af30-111f9acfa9a0" />
 
+                    
 ---
 
 ## ▶️ Como executar na sua máquina:
@@ -47,6 +36,13 @@ br
 2. Clone este repositório;
 3. Abra o projeto em uma IDE (IntelliJ IDEA ou VS Code);
 4. Execute a classe Main.
+
+---
+
+## 🖥️ Tecnologias usadas: 
+
+- Java 25.0.1
+- Git e GitHub
 
 ---
 
