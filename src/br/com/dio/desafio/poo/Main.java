@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 import br.com.dio.desafio.poo.dominio.Administrador;
 import br.com.dio.desafio.poo.dominio.Bootcamp;
-import br.com.dio.desafio.poo.dominio.Conteudos;
+import br.com.dio.desafio.poo.dominio.Conteudo;
 import br.com.dio.desafio.poo.dominio.Developer;
 
 public class Main {
@@ -135,7 +135,7 @@ public class Main {
         int cargaHoraria = scanner.nextInt();
         scanner.nextLine();
 
-        Conteudos curso = administrador.adicionarCurso(tituloCurso, descricaoCurso, cargaHoraria, bootcamp);
+        Conteudo curso = administrador.adicionarCurso(tituloCurso, descricaoCurso, cargaHoraria, bootcamp);
         System.out.println("Curso adicionado ao bootcamp, "+ bootcamp.getName() + ", com sucesso!");
     }
 
@@ -156,7 +156,7 @@ public class Main {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm");
         LocalTime horaAcontecimentoFormatted = LocalTime.parse(horaAcontecimento, formatter);
 
-        Conteudos mentoria =  administrador.adicionarMentorias(tituloMentoria, descricaoMentoria,
+        Conteudo mentoria =  administrador.adicionarMentorias(tituloMentoria, descricaoMentoria,
                 dataOcorrencia, horaAcontecimentoFormatted, bootcamp);
         System.out.println("Mentoria adicionada ao bootcamp, "+ bootcamp.getName() + ", com sucesso!");
     }

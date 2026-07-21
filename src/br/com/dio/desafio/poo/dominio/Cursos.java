@@ -1,6 +1,6 @@
 package br.com.dio.desafio.poo.dominio;
 
-public non-sealed class Cursos extends Conteudos {
+public non-sealed class Cursos extends Conteudo {
     
     private int cargaHoraria;
 
@@ -19,7 +19,7 @@ public non-sealed class Cursos extends Conteudos {
 
     @Override
     public double calculaXp() {
-        return Conteudos.getXp() * cargaHoraria;
+        return Conteudo.getXp() * cargaHoraria;
     }
 
     @Override

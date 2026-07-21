@@ -5,8 +5,8 @@ import java.util.Set;
 
 public class Developer {
     private String nome;
-    private Set<Conteudos> conteudosInscritos = new LinkedHashSet<>();
-    private Set<Conteudos> conteudosFinalizados = new LinkedHashSet<>();
+    private Set<Conteudo> conteudosInscritos = new LinkedHashSet<>();
+    private Set<Conteudo> conteudosFinalizados = new LinkedHashSet<>();
 
     public Developer(String nome){
         this.nome=nome;
@@ -39,11 +39,11 @@ public class Developer {
         return nome;
     }
 
-    public Set<Conteudos> getConteudosInscritos() {
+    public Set<Conteudo> getConteudosInscritos() {
         return conteudosInscritos;
     }
 
-    public Set<Conteudos> getConteudosFinalizados() {
+    public Set<Conteudo> getConteudosFinalizados() {
         return conteudosFinalizados;
     }
 }

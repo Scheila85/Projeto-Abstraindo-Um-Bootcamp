@@ -1,12 +1,12 @@
 package br.com.dio.desafio.poo.dominio;
 
-public sealed abstract class Conteudos permits Cursos, Mentoria {
+public sealed abstract class Conteudo permits Cursos, Mentoria {
     private static final double xP = 100;
     private String titulo;
     private String descricao;
     private String tipoConteudo;
 
-    Conteudos(String titulo, String descricao, String tipoConteudo){
+    Conteudo(String titulo, String descricao, String tipoConteudo){
         this.titulo=titulo;
         this.descricao=descricao;
         this.tipoConteudo=tipoConteudo;

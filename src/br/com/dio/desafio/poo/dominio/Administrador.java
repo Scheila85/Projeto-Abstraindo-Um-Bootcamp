@@ -14,15 +14,15 @@ public class Administrador {
         return bootcamp;
     }
 
-    public Conteudos adicionarCurso(String titulo, String descricao, int cargaHoraria, Bootcamp bootcamp){
-        Conteudos curso = new Cursos(titulo, descricao, "Cursos",cargaHoraria);
+    public Conteudo adicionarCurso(String titulo, String descricao, int cargaHoraria, Bootcamp bootcamp){
+        Conteudo curso = new Cursos(titulo, descricao, "Cursos",cargaHoraria);
         bootcamp.getConteudos().add(curso);
         return curso;
     }
 
-    public Conteudos adicionarMentorias(String titulo, String descricao, 
-        String dataOcorrencia, LocalTime horaAcontecimento, Bootcamp bootcamp){
-        Conteudos mentoria = new Mentoria(titulo, descricao, "Mentorias", dataOcorrencia,
+    public Conteudo adicionarMentorias(String titulo, String descricao,
+                                       String dataOcorrencia, LocalTime horaAcontecimento, Bootcamp bootcamp){
+        Conteudo mentoria = new Mentoria(titulo, descricao, "Mentorias", dataOcorrencia,
         horaAcontecimento);
         bootcamp.getConteudos().add(mentoria);
         return mentoria;

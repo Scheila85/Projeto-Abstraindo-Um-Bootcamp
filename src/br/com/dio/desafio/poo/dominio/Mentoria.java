@@ -2,7 +2,7 @@ package br.com.dio.desafio.poo.dominio;
 
 import java.time.LocalTime;
 
-public non-sealed class Mentoria extends Conteudos {
+public non-sealed class Mentoria extends Conteudo {
     
     private String dataOcorrencia;
     private LocalTime horaAcontecimento;
@@ -16,7 +16,7 @@ public non-sealed class Mentoria extends Conteudos {
 
     @Override
     public double calculaXp() {
-        return Conteudos.getXp() + 40;
+        return Conteudo.getXp() + 40;
     }
 
     @Override
