@@ -11,7 +11,7 @@ import java.util.Set;
         private final LocalDate dataInicio = LocalDate.now();
         private final LocalDate dataTermino = dataInicio.plusDays(90);
         private Set<Conteudos> conteudos = new LinkedHashSet<>();
-        private Set<Developers> developers = new HashSet<>();
+        private Set<Developer> developers = new HashSet<>();
 
         public Bootcamp(String name, String descricao){
             this.name=name;
@@ -38,7 +38,7 @@ import java.util.Set;
             return conteudos;
         }
 
-        public Set<Developers> getDevelopers() {
+        public Set<Developer> getDevelopers() {
             return developers;
         }
 

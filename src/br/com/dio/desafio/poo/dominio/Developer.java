@@ -3,12 +3,12 @@ package br.com.dio.desafio.poo.dominio;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-public class Developers {
+public class Developer {
     private String nome;
     private Set<Conteudos> conteudosInscritos = new LinkedHashSet<>();
     private Set<Conteudos> conteudosFinalizados = new LinkedHashSet<>();
 
-    public Developers (String nome){
+    public Developer(String nome){
         this.nome=nome;
     }
 

@@ -7,13 +7,13 @@ import java.util.Scanner;
 import br.com.dio.desafio.poo.dominio.Administrador;
 import br.com.dio.desafio.poo.dominio.Bootcamp;
 import br.com.dio.desafio.poo.dominio.Conteudos;
-import br.com.dio.desafio.poo.dominio.Developers;
+import br.com.dio.desafio.poo.dominio.Developer;
 
 public class Main {
 
     private static final Scanner scanner = new Scanner(System.in);
     private static Administrador administrador;
-    private static Developers developer;
+    private static Developer developer;
     private static Bootcamp bootcamp;
 
     public static void main(String[] args) {
@@ -178,7 +178,7 @@ public class Main {
         System.out.println("Digite seu nome: ");
         String nomeDev = scanner.nextLine();
 
-        developer = new Developers(nomeDev);
+        developer = new Developer(nomeDev);
         System.out.println("\nUsuário criado com sucesso!");
     }
 
