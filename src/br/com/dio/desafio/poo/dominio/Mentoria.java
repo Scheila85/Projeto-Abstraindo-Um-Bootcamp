@@ -2,13 +2,13 @@ package br.com.dio.desafio.poo.dominio;
 
 import java.time.LocalTime;
 
-public non-sealed class Mentorias extends Conteudos {
+public non-sealed class Mentoria extends Conteudos {
     
     private String dataOcorrencia;
     private LocalTime horaAcontecimento;
     
-    public Mentorias(String titulo, String descricao, String tipoConteudo, String dataOcorrencia,
-        LocalTime horaAcontecimento){
+    public Mentoria(String titulo, String descricao, String tipoConteudo, String dataOcorrencia,
+                    LocalTime horaAcontecimento){
             super(titulo, descricao, "Mentoria");
             this.dataOcorrencia=dataOcorrencia;
             this.horaAcontecimento=horaAcontecimento;

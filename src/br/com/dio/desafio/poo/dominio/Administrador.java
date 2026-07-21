@@ -22,7 +22,7 @@ public class Administrador {
 
     public Conteudos adicionarMentorias(String titulo, String descricao, 
         String dataOcorrencia, LocalTime horaAcontecimento, Bootcamp bootcamp){
-        Conteudos mentoria = new Mentorias(titulo, descricao, "Mentorias", dataOcorrencia, 
+        Conteudos mentoria = new Mentoria(titulo, descricao, "Mentorias", dataOcorrencia,
         horaAcontecimento);
         bootcamp.getConteudos().add(mentoria);
         return mentoria;
