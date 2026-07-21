@@ -12,7 +12,7 @@ public class Developers {
         this.nome=nome;
     }
 
-    public void seIncreverBootcamp(Bootcamp bootcamp){
+    public void seInscreverBootcamp(Bootcamp bootcamp){
         conteudosInscritos.addAll(bootcamp.getConteudos());
         bootcamp.getDevelopers().add(this);
     }
@@ -39,7 +39,7 @@ public class Developers {
         return nome;
     }
 
-    public Set<Conteudos> getConteudosIncritos() {
+    public Set<Conteudos> getConteudosInscritos() {
         return conteudosInscritos;
     }
 

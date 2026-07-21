@@ -183,7 +183,7 @@ public class Main {
     }
 
     private static void inscreverBootcamp() {
-        developer.seIncreverBootcamp(bootcamp);
+        developer.seInscreverBootcamp(bootcamp);
         System.out.println("\nInscrição realizada com sucesso!");
     }
 
