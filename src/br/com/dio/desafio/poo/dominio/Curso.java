@@ -1,10 +1,10 @@
 package br.com.dio.desafio.poo.dominio;
 
-public non-sealed class Cursos extends Conteudo {
+public non-sealed class Curso extends Conteudo {
     
     private int cargaHoraria;
 
-    public Cursos(String titulo, String descricao, String tipoConteudo, int cargaHoraria){
+    public Curso(String titulo, String descricao, String tipoConteudo, int cargaHoraria){
         super(titulo, descricao, "Curso");
         this.cargaHoraria=cargaHoraria;
     }

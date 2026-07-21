@@ -15,7 +15,7 @@ public class Administrador {
     }
 
     public Conteudo adicionarCurso(String titulo, String descricao, int cargaHoraria, Bootcamp bootcamp){
-        Conteudo curso = new Cursos(titulo, descricao, "Cursos",cargaHoraria);
+        Conteudo curso = new Curso(titulo, descricao, "Cursos",cargaHoraria);
         bootcamp.getConteudos().add(curso);
         return curso;
     }

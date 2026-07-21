@@ -1,6 +1,6 @@
 package br.com.dio.desafio.poo.dominio;
 
-public sealed abstract class Conteudo permits Cursos, Mentoria {
+public sealed abstract class Conteudo permits Curso, Mentoria {
     private static final double xP = 100;
     private String titulo;
     private String descricao;
