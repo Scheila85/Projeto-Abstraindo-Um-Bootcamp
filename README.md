@@ -18,6 +18,9 @@ Além disso, foram utilizados recursos como **Collections** e **Stream API** par
 - Encapsulamento;
 - Herança;
 - Polimorfismo;
+- Classes e métodos abstratos;
+- Sealed Classes e Non-Sealed Classes;
+- Modelagem de entidades;
 - Collections (Set);
 - Stream API.
 
