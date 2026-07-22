@@ -12,6 +12,14 @@ Além disso, foram utilizados recursos como **Collections** e **Stream API** par
 
 ---
 
+## 🎯 Principais funcionalidades:
+
+- Gerenciamento de cursos e mentorias;
+- Inscrição e controle dos conteúdos inscritos e concluídos;
+- Manipulação e consulta de dados utilizando Collections e Stream API.
+
+---
+
 ## 📖Principais conceitos aplicados:
 
 - Abstração;
@@ -45,8 +53,9 @@ Além disso, foram utilizados recursos como **Collections** e **Stream API** par
 ## 🖥️ Tecnologias usadas: 
 
 - Java 25.0.1
-- Git e GitHub
-
+- Git
+- GitHub
+  
 ---
 
 ## 👩‍💻 Autora
